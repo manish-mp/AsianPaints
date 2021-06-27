@@ -1,0 +1,560 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6540600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is at the  asian Paints home page",
+            "match": {
+              "location": "PaintAndTexture.user_is_at_the_asian_Paints_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3067832500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Paints \u0026 textures icon",
+            "match": {
+              "location": "PaintAndTexture.user_click_on_Paints_textures_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T12:33:31.575Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18146490000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Quick Interior budget calculator",
+        "description": "",
+        "id": "budgetcalculator;quick-interior-budget-calculator",
+        "after": [
+          {
+            "result": {
+              "duration": 419129000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9449020800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on PaintBudgetCalculator",
+            "match": {
+              "location": "BudgetCalculator.click_on_PaintBudgetCalculator()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26031331300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on quick calculator and enters the required fields",
+            "match": {
+              "location": "BudgetCalculator.click_on_quick_calculator_and_enters_the_required_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3835657700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should able to get calculated budget",
+            "match": {
+              "location": "BudgetCalculator.user_should_able_to_get_calculated_budget()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyBudgetCalculator"
+          }
+        ]
+      }
+    ],
+    "name": "BudgetCalculator",
+    "description": "",
+    "id": "budgetcalculator",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/BudgetCalculator.feature",
+    "tags": [
+      {
+        "name": "@VerifyBudgetCalculator",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 49537200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is at the  asian Paints home page",
+            "match": {
+              "location": "PaintAndTexture.user_is_at_the_asian_Paints_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T12:34:32.541Z",
+        "before": [
+          {
+            "result": {
+              "duration": 41712890800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.setup()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "successful in finding the contractor in our locality",
+        "description": "",
+        "id": "contractorfinder;successful-in-finding-the-contractor-in-our-locality",
+        "after": [
+          {
+            "result": {
+              "duration": 4336713500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2905702000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Contractor Finder icon",
+            "match": {
+              "location": "ContractorFinder.user_click_on_Contractor_Finder_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13836542800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter valid city name",
+            "match": {
+              "location": "ContractorFinder.enter_valid_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h3[normalize-space()\u003d\u0027Mushtaque Isa Sahikh\u0027]\"}\n  (Session info: chrome\u003d91.0.4472.106)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-IO3KT7F\u0027, ip: \u0027192.168.1.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\VANDANA\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 41e4874b22585143391fb4e7195aa8f0\n*** Element info: {Using\u003dxpath, value\u003d//h3[normalize-space()\u003d\u0027Mushtaque Isa Sahikh\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepdefs.ContractorFinder.user_should_able_to_see_the_list_of_contractor(ContractorFinder.java:58)\r\n\tat ✽.user should able to see the list of contractor(file:src/test/resources/Feature/ContractorFinder.feature:12)\r\n",
+              "duration": 10311090100,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user should able to see the list of contractor",
+            "match": {
+              "location": "ContractorFinder.user_should_able_to_see_the_list_of_contractor()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyContractorFinder"
+          }
+        ]
+      }
+    ],
+    "name": "ContractorFinder",
+    "description": "",
+    "id": "contractorfinder",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/ContractorFinder.feature",
+    "tags": [
+      {
+        "name": "@VerifyContractorFinder",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13315300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is at the  asian Paints home page",
+            "match": {
+              "location": "PaintAndTexture.user_is_at_the_asian_Paints_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3107726000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Paints \u0026 textures icon",
+            "match": {
+              "location": "PaintAndTexture.user_click_on_Paints_textures_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T12:35:45.730Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9034610200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "verifying interior paints",
+        "description": "",
+        "id": "paints\u0026textures;verifying-interior-paints",
+        "after": [
+          {
+            "result": {
+              "duration": 461799700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7193533500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on interiors wall paints",
+            "match": {
+              "location": "PaintAndTexture.user_click_on_interiors_wall_paints()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3056797900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should able to see all the different types of paints in interior Category",
+            "match": {
+              "location": "PaintAndTexture.user_should_able_to_see_all_the_different_types_of_paints_in_interior_Category()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyPaints\u0026Textures"
+          },
+          {
+            "name": "@first"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8835600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is at the  asian Paints home page",
+            "match": {
+              "location": "PaintAndTexture.user_is_at_the_asian_Paints_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3269935300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Paints \u0026 textures icon",
+            "match": {
+              "location": "PaintAndTexture.user_click_on_Paints_textures_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T12:36:08.603Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8514221500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "verifying exterior paints",
+        "description": "",
+        "id": "paints\u0026textures;verifying-exterior-paints",
+        "after": [
+          {
+            "result": {
+              "duration": 471247900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d91.0.4472.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-IO3KT7F\u0027, ip: \u0027192.168.1.106\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\\Users\\VANDANA\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50587}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9aa0193771511d1ce42968ec23ed97cb\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.click(Unknown Source)\r\n\tat pageFactory.ColourAndTexture.cookies(ColourAndTexture.java:179)\r\n\tat stepdefs.PaintAndTexture.click_on_exteriors_wall_paints(PaintAndTexture.java:79)\r\n\tat ✽.click on exteriors wall paints(file:src/test/resources/Feature/Paint\u0026Texture.feature:15)\r\n",
+              "duration": 10112860600,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "click on exteriors wall paints",
+            "match": {
+              "location": "PaintAndTexture.click_on_exteriors_wall_paints()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user should able to see all the different types of paints in exterior Category",
+            "match": {
+              "location": "PaintAndTexture.user_should_able_to_see_all_the_different_types_of_paints_in_exterior_Category()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyPaints\u0026Textures"
+          },
+          {
+            "name": "@second"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6653800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is at the  asian Paints home page",
+            "match": {
+              "location": "PaintAndTexture.user_is_at_the_asian_Paints_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2732366600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Paints \u0026 textures icon",
+            "match": {
+              "location": "PaintAndTexture.user_click_on_Paints_textures_icon()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T12:36:30.995Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12173141400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "verifying Wood \u0026 Metals paints",
+        "description": "",
+        "id": "paints\u0026textures;verifying-wood-\u0026-metals-paints",
+        "after": [
+          {
+            "result": {
+              "duration": 441395400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaintAndTexture.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8707210500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on wood and metal wall paints",
+            "match": {
+              "location": "PaintAndTexture.click_on_wood_and_metal_wall_paints()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2961232600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should able to see all the different types of paints in wood and metal Category",
+            "match": {
+              "location": "PaintAndTexture.user_should_able_to_see_all_the_different_types_of_paints_in_wood_and_metal_Category()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyPaints\u0026Textures"
+          },
+          {
+            "name": "@Third"
+          }
+        ]
+      }
+    ],
+    "name": "Paints\u0026Textures",
+    "description": "",
+    "id": "paints\u0026textures",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Paint\u0026Texture.feature",
+    "tags": [
+      {
+        "name": "@VerifyPaints\u0026Textures",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 2
+        }
+      }
+    ]
+  }
+]
